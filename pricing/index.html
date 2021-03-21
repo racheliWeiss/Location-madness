@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>ramot</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+     
+      <script>
+          function play() {
+              window.open(
+                  "../projectt/game.html");
+          }
+      </script>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
+          <a class="navbar-brand" href="#">home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">sound <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown01">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </li>
+              </ul>
+
+          </div>
+      </nav>
+
+      <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="text">
+          <h1 class="display-4">Choose a level</h1>
+          <p class="lead"></p>
+      </div>
+      <div class="container">
+          <div class="card-deck mb-3 text-center">
+              <div class="card mb-4 shadow-sm">
+                  <div class="card-header">
+                      <h4 class="my-0 font-weight-normal">Easy</h4>
+                  </div>
+                  <div class="card-body">
+                      <img src="../pictures/1111.png" />
+                      <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="play()">play</button>
+                  </div>
+              </div>
+              <div class="card mb-4 shadow-sm">
+                  <div class="card-header">
+                      <h4 class="my-0 font-weight-normal">Medium</h4>
+                  </div>
+                  <div class="card-body">
+                      <img src="../pictures/11.png" />
+                      <button type="button" class="btn btn-lg btn-block btn-primary" onclick="play()">play</button>
+                  </div>
+              </div>
+              <div class="card mb-4 shadow-sm">
+                  <div class="card-header">
+                      <h4 class="my-0 font-weight-normal">Hard</h4>
+                  </div>
+                  <div class="card-body">
+                      <img src="../pictures/11.png" />
+                      <button type="button" class="btn btn-lg btn-block btn-primary" onclick="play()">play</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <p id="p" class="mt-5 mb-3 text-muted">&copy; racheli & zehavi</p>
+  </body>
+</html>
